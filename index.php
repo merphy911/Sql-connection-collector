@@ -32,6 +32,6 @@ $request= ['test@mail.ru', 'Anna', 'Ermolova'];
 //DB struct
 $DBtable = ['email', 'name', 'surname'];
 
-$z = sql_query('boxs', $y, $x);
+$z = sql_query('boxs', $request, $DBtable);
 print_r($z)
 ?>
